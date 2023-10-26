@@ -1,0 +1,4 @@
+{
+    "prettier.withNodeModules": false,
+    "prettier.resolveGlobalModules": false
+}
