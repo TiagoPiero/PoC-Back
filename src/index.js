@@ -47,7 +47,7 @@ async function createTaskHandler(req, res) {     "manejador de creador de tareas
 
 }
 
-async function updateTasksHandler(req,res) {  //"manejador de creador de tareas" // el update en vez de hacerlo con clave primaria lo hacemos aca mediante el indice. Se hace especificando en la url /tasks?id=2 (indice 2)
+async function updateTasksHandler(req,res) {  //"manejador de actualizador de tareas" // el update en vez de hacerlo con clave primaria lo hacemos aca mediante el indice. Se hace especificando en la url /tasks?id=2 (indice 2)
     try {
         let {url} = req;
 

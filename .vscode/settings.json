@@ -1,4 +1,5 @@
 {
     "prettier.withNodeModules": false,
-    "prettier.resolveGlobalModules": false
+    "prettier.resolveGlobalModules": false,
+    "liveServer.settings.port": 5501
 }
