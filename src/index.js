@@ -3,13 +3,13 @@ const { bodyParser } = require('./lib/bodyParser')    // se desestructura con el
 const cors = require("cors"); // Importa el paquete cors
 
 let database = [{
-    "title": "Task One"
+    "title": "Limpiar la casa"
 },
 {
-    "title": "Task Two"
+    "title": "Hacer las compras"
 },
 {
-    "title": "Task Three"
+    "title": "Salir a pedalear"
 }];
 
 // Configura cors
